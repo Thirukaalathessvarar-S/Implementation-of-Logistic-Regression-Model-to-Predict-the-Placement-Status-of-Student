@@ -8,10 +8,19 @@ To write a program to implement the the Logistic Regression Model to Predict the
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+1. Import the standard libraries.
+
+2. Upload the dataset and check for any null or duplicated values using .isnull() and .duplicated() function respectively.
+
+3. Import LabelEncoder and encode the dataset.
+
+4. Import LogisticRegression from sklearn and apply the model on the dataset.
+
+5. Predict the values of array.
+
+6. Calculate the accuracy, confusion and classification report by importing the required modules from sklearn.
+
+7. Apply new unknown values
 
 ## Program:
 ```
@@ -77,19 +86,30 @@ lr.predict([[1,80,1,90,1,1,90,1,0,85,1,85]])
 
 ## Output:
 ![the Logistic Regression Model to Predict the Placement Status of Student](sam.png)
-
+### Placement_data:
+![image](https://github.com/MOHAMED-FAREED-22001617/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/121412904/fe66412d-9902-4f22-81e9-ac7ed05a6b23)
+### Salary_data:
 ![ml_exp2_1](https://github.com/Thirukaalathessvarar-S/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/121166390/6b8a6b39-6a17-4393-a511-19d3f6ef4c3b)
+### ISNULL():
 ![ml_exp2_2](https://github.com/Thirukaalathessvarar-S/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/121166390/5f3ed024-8783-434c-adf9-e64cb1c69d6e)
+### DUPLICATED():
 ![ml_exp2_3](https://github.com/Thirukaalathessvarar-S/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/121166390/e96b3cd8-2a80-415b-b34b-e0e9a48e32c5)
+### Print Data:
 ![ml_exp2_4](https://github.com/Thirukaalathessvarar-S/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/121166390/9705756a-df03-4289-98d5-b78271d9d195)
+### iloc[:,:-1]:
 ![ml_exp2_5](https://github.com/Thirukaalathessvarar-S/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/121166390/499ae47e-32aa-4ec5-afba-35d6c20a5112)
+### Data_Status:
 ![ml_exp2_6](https://github.com/Thirukaalathessvarar-S/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/121166390/1f6fe82e-9b1d-4591-a049-5aceea3655ba)
+### Y_Prediction array:
 ![ml_exp2_7](https://github.com/Thirukaalathessvarar-S/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/121166390/a7cce56f-0932-4ceb-ba1a-377311a77476)
+### Accuray value:
 ![ml_exp2_8](https://github.com/Thirukaalathessvarar-S/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/121166390/2c32c8b5-3195-4428-a766-72047862a62d)
+### Confusion Array:
 ![ml_exp2_9](https://github.com/Thirukaalathessvarar-S/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/121166390/c651841c-fd25-40a5-92d0-ed185f772c0f)
+### Classification report:
 ![ml_exp2_10](https://github.com/Thirukaalathessvarar-S/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/121166390/04affd4a-4973-46d9-976c-eca15e22115b)
+### Prediction of LR:
 ![ml_exp2_11](https://github.com/Thirukaalathessvarar-S/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/121166390/1e8c27ed-0077-4d4c-9c8b-57419c5aa96d)
-
 
 
 ## Result:
